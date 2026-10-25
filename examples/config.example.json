@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "calibrated": false,
+  "ledger_namespace": "fictional-demo",
+  "target_alias": "731",
+  "send_seconds": 3,
+  "runtime": "../.local/runtime",
+  "ocr_directory": "../.local/ocr",
+  "taskbar_binding": "../.local/calibration/taskbar-binding.json",
+  "layout": {
+    "dpi": null,
+    "search_strip": null,
+    "results_pane": null,
+    "title_strip": null,
+    "field_anchor": null
+  }
+}
+

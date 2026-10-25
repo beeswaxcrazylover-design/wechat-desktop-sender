@@ -1,0 +1,5 @@
+[
+  {"id": "fictional-message-a", "text": "这是一条虚构演示消息。"},
+  {"id": "fictional-message-b", "text": "保留原始文本与换行。\n第二行也是演示。"}
+]
+

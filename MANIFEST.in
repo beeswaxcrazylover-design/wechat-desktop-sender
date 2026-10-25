@@ -1,0 +1,11 @@
+include LICENSE README.md CONTRIBUTING.md THIRD_PARTY_NOTICES.md
+recursive-include docs *.md *.json
+recursive-include examples *.json
+recursive-include tools *.py
+recursive-include tests *.py
+global-exclude *.pyc *.pyo *.png *.jpg *.jpeg *.bmp *.onnx *.dll *.exe *.db *.sqlite3 *.log
+prune .local
+prune .venv
+prune runtime
+prune evidence
+

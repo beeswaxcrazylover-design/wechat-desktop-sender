@@ -1,0 +1,867 @@
+{
+  "schema_version": 1,
+  "comparison": "Python AST without location attributes; package-relative import level normalized",
+  "modules": [
+    {
+      "source_module": "dpi_bootstrap.py",
+      "destination_module": "dpi_bootstrap.py",
+      "identical_definitions": [
+        {
+          "definition": "initialize_process_dpi",
+          "ast_sha256": "fc3e1270e4e0f596f13e6cb113045f163695c991ba39fc8ded747968d5053009"
+        },
+        {
+          "definition": "initialize_process_dpi.awareness",
+          "ast_sha256": "b42e3b58e97e538eb225d05d098b2be44b1b419624a1a7efb452b96d2ec0fc6d"
+        }
+      ],
+      "adapted_definitions": [],
+      "excluded_definitions": []
+    },
+    {
+      "source_module": "notice_geometry.py",
+      "destination_module": "notice_geometry.py",
+      "identical_definitions": [
+        {
+          "definition": "PlacementError",
+          "ast_sha256": "297f1b3dcba4fcf7d3cba74b4a77354455d331b06e5cb0d08be53bdbef83a614"
+        },
+        {
+          "definition": "rect",
+          "ast_sha256": "81961c98513383be207622c2f368c006e9ab510b6b010700a221b6b4e16b4040"
+        },
+        {
+          "definition": "intersects",
+          "ast_sha256": "e9ec6711cbdcc9648f9e0295c61019a3598ae8f63a5f8f89c4fd1ebf0f245fd9"
+        },
+        {
+          "definition": "contains",
+          "ast_sha256": "970f00f6da90feff86e2817eb385969677875def374cfb68c435e612875fb52c"
+        },
+        {
+          "definition": "PlacementGeometry",
+          "ast_sha256": "6b3d7e78ff2cf13017db920b89ff8a19a7422061330060d06531e3513779b948"
+        },
+        {
+          "definition": "PlacementGeometry.__post_init__",
+          "ast_sha256": "2d97e526d60480b9cc0696aa8ff3db4a07b037b89f226b7c469fdb2c613ba173"
+        },
+        {
+          "definition": "choose_rect",
+          "ast_sha256": "41bb2c1eb56f3cd90ea7097c687c43d90fc4d67f3d786c663b94a601fb7dd666"
+        },
+        {
+          "definition": "choose_rect.safe",
+          "ast_sha256": "db2e437382cd3d33aeb1544d81c973883a9973c8081b2e445cebbdc1eef29c69"
+        }
+      ],
+      "adapted_definitions": [],
+      "excluded_definitions": []
+    },
+    {
+      "source_module": "notice_native.py",
+      "destination_module": "notice_native.py",
+      "identical_definitions": [
+        {
+          "definition": "NativeBanner",
+          "ast_sha256": "677ab77ed19d79aecb47c79dba4660eb2f2ab925cc0e0675ddbea17a09ccec4a"
+        },
+        {
+          "definition": "NativeBanner.__init__",
+          "ast_sha256": "8381cd418fa2601e6f338627a2662247b9408353681273e406489f08ff8dc91e"
+        },
+        {
+          "definition": "NativeBanner._dpi",
+          "ast_sha256": "b4bec9542766a350f6c49c6207719cf34398d13cf6775c75df0de791a8b9068b"
+        },
+        {
+          "definition": "NativeBanner.show",
+          "ast_sha256": "7079759b75d41332a3c91bbe85e9653b1791c054910f96b7da737fe2a0037aa0"
+        },
+        {
+          "definition": "NativeBanner.move",
+          "ast_sha256": "e60941671fa094d52942d9fdbab9e9268b02ad908696370f02d06c59b679929f"
+        },
+        {
+          "definition": "NativeBanner.set_text",
+          "ast_sha256": "92d869f524d306b8db910f58d4cdc192388d86a4c0b721c71ffa6fc7e8f8db88"
+        },
+        {
+          "definition": "NativeBanner.destroy",
+          "ast_sha256": "0ceb591109d69f4f417aa8b15b8b3ea458ff8b774a7f2741662c0240498cbd2a"
+        }
+      ],
+      "adapted_definitions": [],
+      "excluded_definitions": []
+    },
+    {
+      "source_module": "native_win32.py",
+      "destination_module": "native_win32.py",
+      "identical_definitions": [
+        {
+          "definition": "make_run_clock",
+          "ast_sha256": "09f87be6c15f11dd537a06c4eb4a423ddb27c1f414a026ad6993c9b6d4d357e5"
+        },
+        {
+          "definition": "require_run_window",
+          "ast_sha256": "a063563ddd1469254d19ae6819542f7562080ae1e5ac89caca8f44002d1edf38"
+        },
+        {
+          "definition": "require_initial_idle",
+          "ast_sha256": "6bd3e67a9be9987454b46327c047a1f318a25cb1b77fbd9e32eb2af98c808435"
+        },
+        {
+          "definition": "click_dispatch_state",
+          "ast_sha256": "46c0af00d4631f432395c4292a2d84a96185d0b4235473f3bd8581577c99cc1a"
+        },
+        {
+          "definition": "related_window_class",
+          "ast_sha256": "60e406f5425bfe4a07f1fea2a6ceaa77664bf499fa495077fcf08a194a3abcf3"
+        },
+        {
+          "definition": "candidate_filter",
+          "ast_sha256": "4cb156b156818706819e8879d6ec8b75fa5e78344216ea1092f1b877a1dc6ae2"
+        },
+        {
+          "definition": "choose_candidate",
+          "ast_sha256": "cc492cdc8315da365ef338fcef0f06d2c2a379874e9d135048973c0fadf8add6"
+        },
+        {
+          "definition": "key_state_interpretation",
+          "ast_sha256": "48a36c5530e5d5b91d0eccd8c87b76ae2f5fd5d6a1c04657ee95f181ac08a9a4"
+        },
+        {
+          "definition": "MOUSEINPUT",
+          "ast_sha256": "0101fb216b804b15596f969df2f104019c9fcc8550f42e0c63aeecb2a566e17f"
+        },
+        {
+          "definition": "KEYBDINPUT",
+          "ast_sha256": "16fa7ccd8076233361833eba54048fd338bf671c1c52fb36bfefb6a7be8da1e7"
+        },
+        {
+          "definition": "HARDWAREINPUT",
+          "ast_sha256": "b903b2789d8653ef9bf8ced87f749cb32bc3e5660ab93bb4755e5a4b39cacb49"
+        },
+        {
+          "definition": "INPUTUNION",
+          "ast_sha256": "ae6792fba50d046ba2af68291200935767f9bfd96ce9f8c7ef64d4182a69edcb"
+        },
+        {
+          "definition": "INPUT",
+          "ast_sha256": "762427304619635a8fbc5cb2f44373295466e3a9cf8e3520fa8885f522bc0a11"
+        },
+        {
+          "definition": "GUITHREADINFO",
+          "ast_sha256": "a719aafdcb0d1f98fe1c04ecd59fdcbd308d9def2e035c9dd70deb5fa0ed064d"
+        },
+        {
+          "definition": "LASTINPUTINFO",
+          "ast_sha256": "b648f7783029113492cf69d9cc08234af9a84e192f216e9bd0ff1ac7feeb716a"
+        },
+        {
+          "definition": "MONITORINFO",
+          "ast_sha256": "d431d2e68e49cc4b330573da67c239d36b5b4019daaaa704be500f604521621d"
+        },
+        {
+          "definition": "contains",
+          "ast_sha256": "d078520f96b4660556dce1d45caa5a10be3b141e5f9cb805b3b633f0de1f6be8"
+        },
+        {
+          "definition": "intersects",
+          "ast_sha256": "ef56a2eb26d741d5bd4f642ca01e6df03701c28812db4269af5d15b7ac67faac"
+        },
+        {
+          "definition": "absolute_mouse_point",
+          "ast_sha256": "cc3ecd081183a015a12fa69cc166893e37b537e655ff71704c14e1a3d1dbb5f2"
+        },
+        {
+          "definition": "require_fresh_frame",
+          "ast_sha256": "136f023e18a0f8a1a9b04df6e4da5016cf35d50bc581884dce6716c99d3ce03b"
+        },
+        {
+          "definition": "caret_evidence",
+          "ast_sha256": "5c5d01a94bd4265b237e1c8840c5374e60a9b04a0748e8ddc8836231c45c883e"
+        },
+        {
+          "definition": "NativePort",
+          "ast_sha256": "a4169ea08ccacf4a41ce5e8a2fe6f7294d758d7ea6e536003f81c4350e2883d9"
+        },
+        {
+          "definition": "NativePort.__init__",
+          "ast_sha256": "a4683e97899ccd196bb7426c96374638f9d6b2185ec88ff2c1bb0b4d40fc3d90"
+        },
+        {
+          "definition": "NativePort.call",
+          "ast_sha256": "a13d886622c0b015caf26f4782f2c18ca2ac155a634a27f2ef1cf8cc8608a02b"
+        },
+        {
+          "definition": "NativePort.u",
+          "ast_sha256": "40c6955cad26ded40b88bcde85b04837b17e8c668838da1cce6312cc0d4487fc"
+        },
+        {
+          "definition": "NativePort.foreground",
+          "ast_sha256": "914849d4f9d5ec23b9e09489c389c06232f293dd872b51432ed2278068e6afac"
+        },
+        {
+          "definition": "NativePort.owner",
+          "ast_sha256": "7edd8234cd16b169941d481b27201a4dc32a5994cc05b8f10086bc0263e167c3"
+        },
+        {
+          "definition": "NativePort.inspect_candidate",
+          "ast_sha256": "1cf4f64da740ceebcd4adb04abbce0220ebc4d9986bae827c9a5546737d5dfae"
+        },
+        {
+          "definition": "NativePort.app",
+          "ast_sha256": "31e1755a127c88363a3508c3fa4bb3a33d05b0f99021ecd6484e248fa2a73d99"
+        },
+        {
+          "definition": "NativePort.windows",
+          "ast_sha256": "96607691f8e923b21534200ca87163bb9331ffa30593b760efc19603a489bf70"
+        },
+        {
+          "definition": "NativePort.windows.callback",
+          "ast_sha256": "6b017c06940de889dfe9e39787a13a4641000eb2250ceab995bd39b95248e860"
+        },
+        {
+          "definition": "NativePort.select_target",
+          "ast_sha256": "36e911cdbf74c1d1824a0104640abe086ff493dfb8cc385b1b2d42de55652c37"
+        },
+        {
+          "definition": "NativePort.bind_foreground_selection",
+          "ast_sha256": "e75d8aa9120173b0437be73c88b840b126cc86f506c33c3d045c9960808bcceb"
+        },
+        {
+          "definition": "NativePort.revalidate_foreground_binding",
+          "ast_sha256": "578ef94a8c3bef5bef8e0fd0e351a1ba7922c98af3ccaffd3d69bb9148854f70"
+        },
+        {
+          "definition": "NativePort.unlocked",
+          "ast_sha256": "11cd458ae52ffce07d3037e750fd78ca42702f8e904b19e53bb4c07513f836a5"
+        },
+        {
+          "definition": "NativePort.activity",
+          "ast_sha256": "e7aa563aaeef1eddad6ef2aca1898cbda8bb3a58b6742538bbeec9528fcbdc9e"
+        },
+        {
+          "definition": "NativePort._read_activity",
+          "ast_sha256": "1d962fd4c8e0220bdd13c497e9ef22c73b7b8263244bcc20c81ad08821421579"
+        },
+        {
+          "definition": "NativePort.require_activity",
+          "ast_sha256": "0a3a870f79ad743183058327d354196616eed644a8cb02168ae8b025d53f6232"
+        },
+        {
+          "definition": "NativePort.bounds",
+          "ast_sha256": "58881f618d8b2b022d6fb6f6f3b2a7a6fc1067ff44b6d64cd766539ce1f8a219"
+        },
+        {
+          "definition": "NativePort.guard",
+          "ast_sha256": "cdc9234da9eb9110f518318b8bc390934b07c765d2bc4b5a69279f2a1911d9bb"
+        },
+        {
+          "definition": "NativePort.guard.rect_values",
+          "ast_sha256": "c729e1d1728ea286bb0b10a8693a5bbf37507757a22ab788488a9dbae9355350"
+        },
+        {
+          "definition": "NativePort.observe_foreground_after_request",
+          "ast_sha256": "2c6958b0277dfab783f3598cd3c155e5e5a5905bf22c661fb4f3b53fb93dea6b"
+        },
+        {
+          "definition": "NativePort.activate_once",
+          "ast_sha256": "1384d93df09534ba70884a651cfe94a460f8439321c0702bfb598019c17df8c8"
+        },
+        {
+          "definition": "NativePort.click_once",
+          "ast_sha256": "c079740782af27605b253e38d6d8edb822a7f91b13dffdf08bf854cce6f605c0"
+        },
+        {
+          "definition": "NativePort.dispatch_left_click_once",
+          "ast_sha256": "2f58702e4e0aeb06021512258d883d7544513248218d0f1a1fcf9f800d26c06f"
+        },
+        {
+          "definition": "NativePort.dispatch_left_click_once.arguments",
+          "ast_sha256": "1ea6ebece896f7dc526c63a6a76baeea827bf2edd574d09ff379b5b4dc147854"
+        },
+        {
+          "definition": "NativePort.dispatch_mouse_move_once",
+          "ast_sha256": "1dfa106c3356d8d3787fe3dc48e6e953f2845ac03ac8f826a50c4c5dfd2a2f31"
+        },
+        {
+          "definition": "NativePort.observe_focus",
+          "ast_sha256": "d6e67c951c1b0c40a31423b88b000331e7b766bfc129f1371681d571437a4815"
+        },
+        {
+          "definition": "NativePort.restore_once",
+          "ast_sha256": "1e3374517bfe9deeef61b430a8c865749cffbf1715229368b10a6a29191bccf0"
+        }
+      ],
+      "adapted_definitions": [],
+      "excluded_definitions": []
+    },
+    {
+      "source_module": "simple_core.py",
+      "destination_module": "simple_core.py",
+      "identical_definitions": [
+        {
+          "definition": "ForwardError",
+          "ast_sha256": "b0c7c9740d0835c2ca77ff941ce373c8b03aac5e2aefcb4e965b673d67a59ebb"
+        },
+        {
+          "definition": "ForwardError.__init__",
+          "ast_sha256": "2a973dce0b6e2d8c480b99c337cd40facf3203336af5e1d3b4da618eee8cd585"
+        },
+        {
+          "definition": "require",
+          "ast_sha256": "91a912657b36c93d816113c844f5ad5faef88ebca152a712c3216e197143892d"
+        },
+        {
+          "definition": "safe_code",
+          "ast_sha256": "5cde522c1d0ebc506258c50cba88c460b8e13e98592c4f9775c50583331683fe"
+        },
+        {
+          "definition": "Route",
+          "ast_sha256": "1aef16299378a2a0c8310e0ec23cb535aaae01ff470a8fbf33575d27ef142c23"
+        },
+        {
+          "definition": "Ledger",
+          "ast_sha256": "6993b09d8cb2650429c426103255bb7e5e03e6cdd76c862455efd53857bfc62b"
+        },
+        {
+          "definition": "Ledger.__init__",
+          "ast_sha256": "7a597275d65fd6574c70518d923fede443890b4ab2b73993ca9794509ba42ad0"
+        },
+        {
+          "definition": "Ledger.close",
+          "ast_sha256": "40590a90ad920c6d8780a323a8df254316d1b48ff955fcece963e9feada97a30"
+        },
+        {
+          "definition": "Ledger.recover",
+          "ast_sha256": "accf6a52dadb4352b0ba52ddf8fb143b5a11a5dc3b49b9d924943efb59872544"
+        },
+        {
+          "definition": "Ledger.pause_state",
+          "ast_sha256": "b5405ae233a6cc0604159840c6d41b02a5dd056b374aa394a6c8670fd9213919"
+        },
+        {
+          "definition": "Ledger.resume_route",
+          "ast_sha256": "0a270158ccbdf60b0993fb3d3c68bcf779c243f23a8226e2dd260e1b455e0bdb"
+        },
+        {
+          "definition": "Ledger._accept",
+          "ast_sha256": "a683d4469e2f9bfcf8ac590cbb5356681b0dffc98f24199184725da682f5c0a7"
+        },
+        {
+          "definition": "Ledger.accept_batch",
+          "ast_sha256": "39b9004957a2b3179f3c7cf0a712228aa582318ae9bf75c8dcbec9df13c5db41"
+        },
+        {
+          "definition": "Ledger.next_pending",
+          "ast_sha256": "f0b5156723f062c51e95eda9087bc178db6162bca4624b9dc01bb114d37fda02"
+        },
+        {
+          "definition": "Ledger.pending_batch",
+          "ast_sha256": "a3dfd4774d0c3b466729154490969fd22f48485853976dea29122da15d6d0f51"
+        },
+        {
+          "definition": "Ledger.begin",
+          "ast_sha256": "9402af83ca5c9eec970c8a495f4730345dd83c37b48870251db7526875c4d66e"
+        },
+        {
+          "definition": "Ledger.requeue_confirmed_blocked",
+          "ast_sha256": "227e8e99ca984f8be782a17ae2d17c92e05aa072c2bafb127e38cd7bffbc6a5d"
+        },
+        {
+          "definition": "Ledger.finish",
+          "ast_sha256": "ce157e5758347484ec72a631ef19a7d81e682c7fe6a5569b3fe73b89c56e1ed2"
+        },
+        {
+          "definition": "Ledger.stats",
+          "ast_sha256": "7f0c2cf8f6765c9e09daee0c98b834558e53ad2d8725a4b0188a73167dd184db"
+        },
+        {
+          "definition": "Engine",
+          "ast_sha256": "d1429d0839627dc1c16993f12d5c00ef730de3f5d709e7bbcffd1ad1561f8b07"
+        },
+        {
+          "definition": "Engine.__init__",
+          "ast_sha256": "e212b1906a6cafe79a873d513dc62e0036f35c208739c3230ee34257a9b7a722"
+        },
+        {
+          "definition": "Engine.request_resume",
+          "ast_sha256": "d30c761017079262e208238013380bd82955b3b704c8ed54cac9a3e095639a26"
+        },
+        {
+          "definition": "Engine.tick",
+          "ast_sha256": "2b08476cbbf4b10c689d6f319481c04ce1ce4c23dae6757bb7135094d21532de"
+        },
+        {
+          "definition": "Engine.run",
+          "ast_sha256": "b105c1797fb86802f08f9b9e136cfbbb7124f98e361737cf8f8be35154105b2a"
+        }
+      ],
+      "adapted_definitions": [],
+      "excluded_definitions": [
+        "resolve_route",
+        "settings"
+      ]
+    },
+    {
+      "source_module": "bbox_capture_v1.py",
+      "destination_module": "capture.py",
+      "identical_definitions": [
+        {
+          "definition": "Native.__init__",
+          "ast_sha256": "46ddc89c7a4c5046a7c3adf0c81ae1bea3a037e04ac9e5b6335c256c68d439a4"
+        },
+        {
+          "definition": "Native.copy_rectangle_once",
+          "ast_sha256": "8f168cd0a4029461e180303a0d2085ac13d39cd2b1c53524fa71dc8093595760"
+        },
+        {
+          "definition": "Native.copy_rectangle_once.Header",
+          "ast_sha256": "731fa8bcdf864a880ac61e51d14238b69a72e379698bc2ba0b592eb3e14ecb6a"
+        }
+      ],
+      "adapted_definitions": [
+        "Native"
+      ],
+      "excluded_definitions": [
+        "Native.metadata",
+        "Native.session",
+        "aggregate",
+        "main",
+        "now",
+        "save"
+      ]
+    },
+    {
+      "source_module": "live_capture_once.py",
+      "destination_module": "live_capture_once.py",
+      "identical_definitions": [
+        {
+          "definition": "Stop",
+          "ast_sha256": "383bc97cac4f4d153e1b08cb45ecd488acc7c65690175c083e94c35a7caed4a8"
+        },
+        {
+          "definition": "application_title_metadata",
+          "ast_sha256": "2d1ca49246b226ed29f0e2c3187e77d3efbe6c2cebbcb89457b68dcda2cf9fe2"
+        },
+        {
+          "definition": "bind_selected_application",
+          "ast_sha256": "71980bf0f638497e8188cddb9f2e546c8372a491d8be01b5910e692a7899179d"
+        },
+        {
+          "definition": "require_same_selected_window",
+          "ast_sha256": "f8b3ca79e85bcd1b116ae9122cfaeccd1b4831c3dab6c91b72609c3b948bb58f"
+        },
+        {
+          "definition": "Probe",
+          "ast_sha256": "1c93ca2597d04e31d0003655b33c1bd9aa35e9753d3141068178f83b627a0f9b"
+        },
+        {
+          "definition": "Probe.__init__",
+          "ast_sha256": "4f2a4547bea507259b18f046e03a0819697ce288ec89c78ea96d2a6b8efa5c4f"
+        },
+        {
+          "definition": "Probe.call",
+          "ast_sha256": "32278d04523ac58974078696c73028cebd3ce0e232402ab683ab837b12028864"
+        },
+        {
+          "definition": "Probe.require",
+          "ast_sha256": "b2f6207f502be0581852d76b163cdfb2f18d7c35d4b61d882ac50ade072df48f"
+        },
+        {
+          "definition": "Probe.snapshot",
+          "ast_sha256": "e515a38bea9e698ef032321aedb916ac55ebd04b3cdda20683a1239bc773a552"
+        },
+        {
+          "definition": "Probe.geometry",
+          "ast_sha256": "4772a2cd8bafc5e1e5635610d495a4f7025806bc2a06622356b581f632ed8963"
+        }
+      ],
+      "adapted_definitions": [
+        "save"
+      ],
+      "excluded_definitions": [
+        "main",
+        "review_captured_conversation",
+        "run"
+      ]
+    },
+    {
+      "source_module": "native_focus_once.py",
+      "destination_module": "native_focus_once.py",
+      "identical_definitions": [
+        {
+          "definition": "timing",
+          "ast_sha256": "7ee58fe9d48a34a6898bf80db04bf4cb2f187f49a88932ed6b128ca625005c2d"
+        },
+        {
+          "definition": "local_engine",
+          "ast_sha256": "a4a5ae4ae3a11308720a38a8e6052389b1406be9e04c4d2ec2787969ae6d5496"
+        },
+        {
+          "definition": "local_engine.no_network",
+          "ast_sha256": "8d579dc400c37665326881bd05bcb9e5fa2c138471de6f4613a43fa3f5f26271"
+        },
+        {
+          "definition": "countdown",
+          "ast_sha256": "3d13237455e5ce3817ffa6c76238d7c5cf4f12dc84854cb0b251da2268d68a69"
+        }
+      ],
+      "adapted_definitions": [
+        "capture_class"
+      ],
+      "excluded_definitions": [
+        "bind_and_return",
+        "enabled",
+        "main",
+        "run"
+      ]
+    },
+    {
+      "source_module": "taskbar_click_once.py",
+      "destination_module": "taskbar_click_once.py",
+      "identical_definitions": [
+        {
+          "definition": "load_binding",
+          "ast_sha256": "6e2484e93bdb74f783d96b25087493e34d64c056891158216ac25d19336428ea"
+        },
+        {
+          "definition": "locate_icon",
+          "ast_sha256": "7c8c2f9e97a6be29601476e7e89ebab043013080fc893b9de4964c5caaae2b4e"
+        },
+        {
+          "definition": "TaskbarPort",
+          "ast_sha256": "1e2e8bbea33ca735b3fecb056072ce5753da856aca120d944b6a34cc84471593"
+        },
+        {
+          "definition": "TaskbarPort.__init__",
+          "ast_sha256": "a78c392da57efe58b3d69e14eb92c85ed275857490917c1f90c3e2ba75da06a4"
+        },
+        {
+          "definition": "TaskbarPort.call",
+          "ast_sha256": "43227c19fcc9080a13c7eb31b9e4006e65d82cff87dfba3d83f9e8a071c200d4"
+        },
+        {
+          "definition": "TaskbarPort.taskbar_state",
+          "ast_sha256": "5e066a0be0da227898ef79b7e1004b3c407a6dfb1429b259b056748e019f1b5a"
+        },
+        {
+          "definition": "TaskbarPort.taskbar_click",
+          "ast_sha256": "0e8fc0b0e56fa329f0fdcfafcdbe683c5d1fc47e693c5dddba2c98d2c034e371"
+        },
+        {
+          "definition": "TaskbarPort.confirm_taskbar_move",
+          "ast_sha256": "ca0b5241d30756a930e6189c70e20b3eb933eda3aef2d362ff7ff497216bd1b7"
+        },
+        {
+          "definition": "TaskbarPort.confirm_taskbar_result",
+          "ast_sha256": "8afc08c5dc57377a653a36266cf10288e9dad79e56467e7a80b00c027165af95"
+        }
+      ],
+      "adapted_definitions": [
+        "run"
+      ],
+      "excluded_definitions": [
+        "main"
+      ]
+    },
+    {
+      "source_module": "search001_once.py",
+      "destination_module": "search_once.py",
+      "identical_definitions": [
+        {
+          "definition": "PopupBoundsChanged",
+          "ast_sha256": "ace1385337d6736db967785464147a0ed6e8f18a2a1fcd3f0dd576cddc457549"
+        },
+        {
+          "definition": "PopupBoundsChanged.__init__",
+          "ast_sha256": "53b8bfc912208586de828454366e4bc7bef28b168e36cb5e3c07db8c529c4fa8"
+        },
+        {
+          "definition": "tokens",
+          "ast_sha256": "44ed822154fad39e0ccb1bd1b98ba271b3412126bdef20baae00839239b2cd5d"
+        },
+        {
+          "definition": "exact_token",
+          "ast_sha256": "b87a15a0a86a33462da3197bb930f26182135129c5e82d0b9dd6b520ec26140a"
+        },
+        {
+          "definition": "category_lane_width",
+          "ast_sha256": "87ad021a6e04bd4490c646c70b81de9e855dd07dce4d392c79aa71e84579e205"
+        },
+        {
+          "definition": "category_label_probes",
+          "ast_sha256": "ef39fcef5d29dbec07809574f6986c2704b9a664e4a2122bfc6d7676cc10fdd0"
+        },
+        {
+          "definition": "read_category_label",
+          "ast_sha256": "6d2d96c649e9ab92e65632e92cde357c5e8ee248093d777118d7a8202f33686a"
+        },
+        {
+          "definition": "group_section",
+          "ast_sha256": "1fd721f0389ad66454128aba214dabe6281462420c7ceb32c899ba87fec488f0"
+        },
+        {
+          "definition": "group_capture_box",
+          "ast_sha256": "56d8bc8ea2f443ec900225ee86dd953e6c32cd2f04938304dbd93d1ba6937cd3"
+        },
+        {
+          "definition": "screen_box_from_crop",
+          "ast_sha256": "3b7360dcfa63cbb3eef97d1c214283797b3fc652f8b2b6ef68ae3a7df159812e"
+        },
+        {
+          "definition": "unique_group_candidate",
+          "ast_sha256": "1df8a8aa312f0e7f2756374d87cdfe756989e4c0989989bfca0f367bf62e0a68"
+        },
+        {
+          "definition": "unique_chat_entry",
+          "ast_sha256": "72c77e4c60f4ba6981bb8f7c774c758e5ed21ec8661068a4adc6e39cdaed718b"
+        },
+        {
+          "definition": "opened_remark_matches",
+          "ast_sha256": "7d617b25ab3d9e1cd709c449d53575f5db156f6106568e0779aaad93f5000623"
+        },
+        {
+          "definition": "load_human_binding",
+          "ast_sha256": "3d2e65bfb37eabc8cccdc7e1f06f0bca73b8ec883d8f6f268269d90a44ec4529"
+        },
+        {
+          "definition": "inherit_taskbar_context",
+          "ast_sha256": "40fe7c339193af8c33fa06a07b6809147f7f6a135c46a654b531995e2d5d8e9b"
+        },
+        {
+          "definition": "popup_bounds_inside_main",
+          "ast_sha256": "4efccd541c33f80bf3ded68e51c1b976f734f810682a8ddadbe22251e1fce683"
+        },
+        {
+          "definition": "owned_search_popup",
+          "ast_sha256": "68c264bf6ca8e142ffb6309db813b86fafb9662e9613e60c8e858495d2ddff79"
+        },
+        {
+          "definition": "region_guard",
+          "ast_sha256": "759ddd19d4d013a911f0c20d63114dc103d759d4771bdcecc425079554b1e717"
+        },
+        {
+          "definition": "require_same_popup",
+          "ast_sha256": "b073a3ad41ff846c8a48ffe87420b26821a1350d8d0f012197ff3167f246a2d2"
+        },
+        {
+          "definition": "read_only_input_tick",
+          "ast_sha256": "3c54288128d7fd6a0ac7fa0e1f2ded9f1475571a73cecf8a07b44002d4d41ec6"
+        },
+        {
+          "definition": "run.stable",
+          "ast_sha256": "b098579b8e022fb42d52d812c6faad85378f9d654dd8901f70637bddc5f3706f"
+        },
+        {
+          "definition": "run.unchanged_input",
+          "ast_sha256": "402ec751d14a9290c18995908b101a56b6aef14d8f0a95b0861242b65002907a"
+        },
+        {
+          "definition": "run.click_control",
+          "ast_sha256": "417c4d0ec0ca995b0c7cc4c36e31f5724b25abaf02846866fea6f3c979db00cb"
+        }
+      ],
+      "adapted_definitions": [
+        "search_layout",
+        "search_field",
+        "category_name",
+        "run",
+        "run.snapshot"
+      ],
+      "excluded_definitions": [
+        "main"
+      ]
+    },
+    {
+      "source_module": "batch_notice.py",
+      "destination_module": "batch_notice.py",
+      "identical_definitions": [
+        {
+          "definition": "_Command",
+          "ast_sha256": "f9ff7ec5c0dc2b90e89beea704f4ff53b18aa5d015206eba3698ef2680b6621b"
+        },
+        {
+          "definition": "_Batch",
+          "ast_sha256": "c4a9f391fec30abf1d0f3c109902ca35e9adff9a0e895eabbf840e7ee4aefa39"
+        },
+        {
+          "definition": "_View.__init__",
+          "ast_sha256": "060284c8c3e738f409814842321a701f6486b03118c249cee6c8fffd2395d6d2"
+        },
+        {
+          "definition": "_View.tick",
+          "ast_sha256": "b5f501efcad9079d00c690a7b7180feeaf62c6399b3aaf43fd56e2e4bf6bebfc"
+        },
+        {
+          "definition": "_View.set_banner",
+          "ast_sha256": "f0e79bd6c4470bfd5eade8f7ac12fbb584ad84852ef5c00f2170b98986c113b9"
+        },
+        {
+          "definition": "_View.close_countdown",
+          "ast_sha256": "74046df69dcf694c411ead573d42d75bceb407be957d1a317aabe12edb64fea3"
+        },
+        {
+          "definition": "_View.destroy",
+          "ast_sha256": "e50b0642518a173fc6861acbbd35ef2667eeb53718762f2e373bdbf6ed74e944"
+        },
+        {
+          "definition": "BatchNotice",
+          "ast_sha256": "8f980816e69584d1dbe3bc81d460d40d5704ffaed74dcf5b6caf0b464094b5f3"
+        },
+        {
+          "definition": "BatchNotice.__init__",
+          "ast_sha256": "80a1b1c900491bbedd0302bcfbaaaae3863d24be56a0131c1fca9076bc36b926"
+        },
+        {
+          "definition": "BatchNotice._worker",
+          "ast_sha256": "a9a97a66540a853300ebb957baa8bdc2ab05689ea1186a4ece4b23dcd1187640"
+        },
+        {
+          "definition": "BatchNotice._wait",
+          "ast_sha256": "3fcfa60ce713c9398ef3992a1baef79345da20630a79b60b959d8a91246cbedc"
+        },
+        {
+          "definition": "BatchNotice.begin",
+          "ast_sha256": "483a9a4969e828be87a734a826e492eea7f381754d92b2fa916e286d09586074"
+        },
+        {
+          "definition": "BatchNotice._matching",
+          "ast_sha256": "c85240cf047fe8e6f074703a7264b13a68db0da3d69fc67ae4e7779e69f11bc6"
+        },
+        {
+          "definition": "BatchNotice.progress",
+          "ast_sha256": "a4f5d676be4306037bd9348247596c70f8e6589236166c18e0a28fc86e100162"
+        },
+        {
+          "definition": "BatchNotice.end",
+          "ast_sha256": "8f98207db6460de11cb316686959169011176ba7eee3329c92a38519b5c3b84a"
+        },
+        {
+          "definition": "BatchNotice._answer",
+          "ast_sha256": "734c360b4b3c8679edace1de818aacd2e54f4add9ccb533a83bac5fae6079e5d"
+        },
+        {
+          "definition": "BatchNotice._dispose_view",
+          "ast_sha256": "a5151701580b7494b78e011987d53c6b504efc0592f11e0d60c11a9fdb02505b"
+        },
+        {
+          "definition": "BatchNotice._warning",
+          "ast_sha256": "0aa7a7be347c1c63a919af1e2a626a8e95bdd827175fcea7629ec1bf21c72899"
+        },
+        {
+          "definition": "BatchNotice._stopping",
+          "ast_sha256": "c74689252cfc6f3fa2efb2787ba903025d6e52bc0001a3de59a4467fae75ac26"
+        },
+        {
+          "definition": "BatchNotice._show_stopping",
+          "ast_sha256": "c2e98b7be07c4028ac9cef4a87eb33a66a3667fe423fbfde8a3517ccd857cc16"
+        },
+        {
+          "definition": "BatchNotice._finish",
+          "ast_sha256": "40b51fd3d64f1700bc408fc2d600239520cce8622888d8a7c9871aeff6fab9aa"
+        },
+        {
+          "definition": "BatchNotice._pump",
+          "ast_sha256": "1dc58409f0dba9e4486ad1e1078fb5ce133bdad2d54704ab025008dba2ed9192"
+        },
+        {
+          "definition": "BatchNotice.cancel",
+          "ast_sha256": "243f18a47df648cf1d7daf906defd3f30f445504603a02187f5c7b676cddd925"
+        },
+        {
+          "definition": "BatchNotice.close",
+          "ast_sha256": "fd097e8a1c4f4ea4627b6121ad41d1bb6f837c31fd54cad68b12001ee14bde38"
+        }
+      ],
+      "adapted_definitions": [
+        "_View",
+        "_View.start_countdown"
+      ],
+      "excluded_definitions": []
+    },
+    {
+      "source_module": "notice_runtime.py",
+      "destination_module": "notice_runtime.py",
+      "identical_definitions": [
+        {
+          "definition": "observe_geometry",
+          "ast_sha256": "9903b8179ea419b4cef8907ea7bdccaeab2c2ea43e8ac4759a81de551c6955aa"
+        },
+        {
+          "definition": "observe_geometry.monitor",
+          "ast_sha256": "958d12d369daa117c81503971f4ce67ace391df98e38fab2c2b981ab29c9a1a9"
+        }
+      ],
+      "adapted_definitions": [],
+      "excluded_definitions": []
+    },
+    {
+      "source_module": "sender_worker.py",
+      "destination_module": "sender_worker.py",
+      "identical_definitions": [
+        {
+          "definition": "attempt_paths",
+          "ast_sha256": "21dfcef842130e4bc993dfd3a7f64a12179c103fb85e0dabde19a1be99d6f8aa"
+        },
+        {
+          "definition": "verify_safe_retry",
+          "ast_sha256": "34a27ac82919a94bb411a484e1fdeb3aa7f681c70e61718f152bbfdb4cde2267"
+        },
+        {
+          "definition": "executor_idle",
+          "ast_sha256": "e27e87bc6ef4542871ea3dadc1c09f4bedf9733784144cd1f0931ff8aabbe9f6"
+        },
+        {
+          "definition": "tracked_process",
+          "ast_sha256": "040abb9ab552747cc114725b6d309b3bfd4c8cb8152fd02cb3b9e65dd8720572"
+        },
+        {
+          "definition": "call_child",
+          "ast_sha256": "be12493455a3e1f39c37df1b0a1bc46f575e1c2444f2f40616b9789f1b81f6a5"
+        },
+        {
+          "definition": "submit.cancelled",
+          "ast_sha256": "8c44edc4d5b3353e252733a1d54e8ec7acf8b64bbae1654a0380e21e7542fd37"
+        },
+        {
+          "definition": "submit.opened",
+          "ast_sha256": "9731b147a7bfae62694762fec6564ffe0e4df53fc9508a72478ac82d5ae31ffa"
+        }
+      ],
+      "adapted_definitions": [
+        "process_command",
+        "submit"
+      ],
+      "excluded_definitions": []
+    },
+    {
+      "source_module": "simple_app.py",
+      "destination_module": "app_lock.py",
+      "identical_definitions": [
+        {
+          "definition": "AppLock",
+          "ast_sha256": "05231b7a7aa0573e1c47c9ed8fcdf0356746cce7b25703bec8fc4b07c4ebcf46"
+        },
+        {
+          "definition": "AppLock.__init__",
+          "ast_sha256": "2ce70501979d5fd17a7f0b9ee713f30ff12c5b7d8d80f2c2bf0b7216bd30fb8b"
+        },
+        {
+          "definition": "AppLock.acquire",
+          "ast_sha256": "c8bd772257f4926d49441c9c8cf350d7d7255a34f4e3725d8a779fc609d81307"
+        },
+        {
+          "definition": "AppLock.close",
+          "ast_sha256": "636a958764fe6f0de8493a52316a1c83dc07378fd474bf00eb10702f0cd401fb"
+        }
+      ],
+      "adapted_definitions": [],
+      "excluded_definitions": []
+    }
+  ],
+  "identical_definition_count": 176,
+  "adapted_definition_count": 13
+}

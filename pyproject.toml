@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wechat-desktop-sender"
+version = "0.1.0"
+description = "Extracted Windows WeChat GUI sending flow with local OCR and durable no-blind-retry state"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = {file = "LICENSE"}
+authors = [{name = "wechat-desktop-sender contributors"}]
+dependencies = []
+classifiers = ["Development Status :: 3 - Alpha", "Operating System :: Microsoft :: Windows", "Programming Language :: Python :: 3.12"]
+
+[project.optional-dependencies]
+desktop = [
+  "PyAutoGUI==0.9.54", "rapidocr-onnxruntime==1.4.4",
+  "Pillow==13.0.0", "opencv-python==5.0.0.93", "numpy==2.5.4",
+  "onnxruntime==1.31.0", "pyperclip==1.11.0", "PyYAML==6.0.3"
+]
+
+[project.scripts]
+wechat-desktop-sender = "wechat_desktop_sender.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+wechat_desktop_sender = ["ocr-settings.json"]
+
